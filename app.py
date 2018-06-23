@@ -61,7 +61,9 @@ def api():
 @app.route("/table")
 def tablebaby():
     return render_template("table.html")
-
+@app.route("/wire")
+def wire():
+    return render_template("wirechart.html")
 @app.route("/scroll")
 def scroll():
     return render_template("lil_scroll.html")
