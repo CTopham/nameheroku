@@ -14,7 +14,7 @@ from flask import (
     redirect)
 import tweepy
 from flask_sqlalchemy import SQLAlchemy
-
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 #################################################
 # Flask Setup
 #################################################
